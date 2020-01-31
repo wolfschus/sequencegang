@@ -3,6 +3,9 @@
  *
  *  Created on: 29.04.2019
  *      Author: wolf
+ * 
+ * GNU General Public License v3.0
+ * 
  */
 
 #include <SDL/SDL.h>
@@ -2238,7 +2241,7 @@ int main(int argc, char* argv[])
 				textPosition.y = 4*scorey-text->h/2;
 				SDL_BlitSurface(text, 0, screen, &textPosition);
 				SDL_FreeSurface(text);
-				sprintf(temptext, "%s","License WS");
+				sprintf(temptext, "%s","GNU General Public License v3.0");
 				text = TTF_RenderText_Blended(font, temptext, textColor);
 				textPosition.x = screen->w/2-text->w/2;
 				textPosition.y = 5*scorey-text->h/2;
