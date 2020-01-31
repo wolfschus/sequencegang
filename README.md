@@ -16,4 +16,4 @@ To install:
 sudo cp sequencegang /usr/local/bin/
 rm sequencegang
 mkdir ~/.sequencegang
-cp -R db/* ~/.sequencegang/
+cp -r db/* ~/.sequencegang/
