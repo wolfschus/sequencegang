@@ -14,6 +14,9 @@ sudo apt install libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev libsdl-mixer1
 To install:
 
 sudo cp sequencegang /usr/local/bin/
+
 rm sequencegang
+
 mkdir ~/.sequencegang
+
 cp -r db/* ~/.sequencegang/
