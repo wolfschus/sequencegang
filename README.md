@@ -12,14 +12,10 @@ To compile:
 
 sudo apt install libsdl1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev libsdl-mixer1.2-dev librtmidi-dev librtaudio-dev libsqlite3-dev libsdl-image1.2-dev libfluidsynth-dev fluid-soundfont-gm
 
-./make
+make
 
 To install:
 
-sudo cp sequencegang /usr/local/bin/
+make setup
+sudo make install
 
-rm sequencegang
-
-mkdir ~/.sequencegang
-
-cp -r db/* ~/.sequencegang/
