@@ -20,9 +20,8 @@ clean:
 	rm $(OBJECTS)
 
 setup:
-	mkdir ~/.sequencegang
-	cp -r db/* ~/.sequencegang
+	mkdir ~/.$(TARGET)
+	cp -r db/* ~/.$(TARGET)
 
 install:
 	cp $(TARGET) /usr/local/bin/
-	rm $(TARGET)
